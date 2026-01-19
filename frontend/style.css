@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    background: #333;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #f39c12;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.blog-form {
+    margin-bottom: 40px;
+}
+
+.blog-form input, .blog-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #f39c12;
+    border-radius: 8px;
+    background: #222;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.blog-form button {
+    width: 100%;
+    padding: 15px;
+    background: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.blog-form button:hover {
+    background-color: #e67e22;
+}
+
+.blog-list {
+    margin-top: 50px;
+}
+
+.blog-list h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+
+.blog-item {
+    background: #444;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.blog-item h3 {
+    font-size: 1.8rem;
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.blog-item p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.blog-item small {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.blog-item button {
+    padding: 8px 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.blog-item button:hover {
+    background-color: #c0392b;
+}
